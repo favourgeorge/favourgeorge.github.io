@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Favour George
+ID - 181103037
+Department - Computer Science
+Level- 300 -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nightowl </title>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/styles2.css" rel="stylesheet">
+</head>
+<style>
+  .button {
+  background-color: #318CE7;
+  border: none;
+  color: white;
+  position: absolute;
+  font-size: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 16px;
+  transform: translate(-2%, -1350%);
+  left: 42%;
+}
+.button:hover {
+  background-color: #007FFF;
+}
+.footer{
+  padding: 22px;
+  border: 15px #323743;
+  background-color: #323743;
+  color: white;
+   }
+</style>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="../index.html"><img src="../html/nt_white.png" width="30" height="30">
+  <a href="home.html">HOME</a>
+  <a href="projects.html" class="active">PROJECTS</a>
+  <a href="shop.html">SHOP</a>
+  <a href="contact.html">CONTACT US</a>
+  <a href="#cart"><i class="fa fa-shopping-cart"></i></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" style="font-size:24px";></i>
+  </a>
+</div> 
+
+<div class="bg-image img1" >
+    <h1 class="text" style="font-size:6vw;"><b>We Work 24/7</b></h1>
+    <h3 class="text2" style=" font-size:3vw">Do <strong>NIGHTOWLS</strong> sleep?</h3>
+    <a href="shop.html"><button class="button" style="font-size:2vw">Visit Our Shop</button></a>
+</div>
+<div class="bg-image img2">
+  <h1 style="font-size:5vw; font-family: sans-serif;"><b>Our Work</b></h1>
+  <p style="font-size: 14px">WE DON'T COMPROMISE QUALITY OF OUR SERVICES & PRODUCTS.</p>
+  <i class="fa fa-align-left" style="color: #2AA7F1; font-size:22px"></i>
+  <br><br>
+  <img src="../html/nileconnect.jpg" width="425" height="300">
+  <img src="../html/lead.jpg" width="425" height="300">
+  <img src="../html/nasara.jpg" width="425" height="300">
+  <img src="../html/a2k.jpg" width="425" height="300" usemap="#train">
+</div>
+<map name="train">
+  <area shape="rect" coords="1000, 1000, 5, 5"href="train.html">
+<div class="bg-image img3">
+  <div class="img4"><img src="../html/nt_headwhite.PNG"></div>
+  <h1 class="text3"><b>Are You Ready?</b></h1>
+    <h3 class="text4">CONTACT US AND LET'S TALK BUSINESS</h3>
+    <a href="contact.html"><button class="button2"><i class="fa fa-play"></i>CONTACT US</button></a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script> 
+<div class="footer">
+  <p>&copy Copyright-2020 | Contact 08034135061| Powered by Nightowl Technology</p>
+  <p style="font-size: 25px;text-align: right;"><i class="fa fa-twitter"></i>&nbsp;
+    <i class="fa fa-facebook-f"></i></p>
+</div>
+</body>
+</html>
+
